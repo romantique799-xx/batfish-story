@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(255, 0, 132);
+}
+h1{
+    color: aliceblue;
+}
+.blueText{
+    color: aliceblue;
+}
+img {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+.swimAway {
+    width: fit-content;
+    transition: transform 3s ease, opacity 3s ease;
+}
+
+.swimAway:hover {
+    transform: translateX(300px);
+    opacity: 0;
+}
+
+.story {
+    color: white;
+    padding: 30px;
+}
+
+.date {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.story h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.duration {
+    font-size: 80px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.events {
+    font-size: 18px;
+    line-height: 1.0;
+    margin-top: 20px;
+}
+
+.goodbye {
+    font-size: 36px;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.ending {
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ending summary {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.ending p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.ending h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
